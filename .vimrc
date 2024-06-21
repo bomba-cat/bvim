@@ -35,7 +35,7 @@ autocmd VimEnter * NERDTree | wincmd p
 
 " --Colorscheme
 
-colorscheme sonkai
+colorscheme sonokai
 
 " --Variables
 
