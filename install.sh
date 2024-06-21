@@ -14,3 +14,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 echo
 echo Done! Please run 'vim' inside your terminal and run ':PlugInstall' inside vim
+echo
+read -p "Do you want to see some basic shortcuts? CTRL+C to cancel" silly
+./tutorial.sh
