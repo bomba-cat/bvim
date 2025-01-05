@@ -20,6 +20,7 @@ Plug 'derekwyatt/vim-protodef'
 
 " --Themes
 Plug 'rafi/awesome-vim-colorschemes'
+Plug 'michaeldyrynda/carbon'
 
 call plug#end()
 
@@ -49,7 +50,7 @@ nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
 nmap <C-x> :bdelete<CR>
-nmap <C-b> :bnext<CR>
+nmap <TAB> :bnext<CR>
 nmap <C-s> :w<CR>
 nmap <C-t> :terminal<CR>
 nmap <C-Up> <C-w>-

@@ -16,7 +16,8 @@ if [[ $type == "y" ]] then
     sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
     rm $HOME/.config/nvim/init.vim
-cp ./init.vim $HOME/.config/nvim/init.vim
+    mkdir -p $HOME/.config/nvim/
+    cp ./init.vim $HOME/.config/nvim/init.vim
 fi
 if [[ $type == "n" ]] then
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
