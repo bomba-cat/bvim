@@ -36,7 +36,7 @@ autocmd VimEnter * NERDTree | wincmd p
 
 " --Colorscheme
 
-colorscheme sonokai
+colorscheme rdark-terminal2
 
 " --Variables
 
@@ -49,11 +49,13 @@ nmap <C-h> <C-w>h
 nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
+nmap <F2> <C-w>n:edit 
 nmap <C-x> :bdelete<CR>
 nmap <TAB> :bnext<CR>
 nmap <C-s> :w<CR>
 nmap <C-t> :terminal<CR>
+nmap <C-c> :! 
 nmap <C-Up> <C-w>-
 nmap <C-Down> <C-w>+
-nmap <C-Left> <C-w><
-nmap <C-Right> <C-w>>
+nmap <C-Left> <C-w>h<C-w>><C-w>l
+nmap <C-Right> <C-w>l<C-w><<C-w>h

@@ -28,4 +28,4 @@ echo
 echo Done! Please run 'vim' or 'nvim' inside your terminal and run ':PlugInstall'
 echo
 read -p "Do you want to see some basic shortcuts? CTRL+C to cancel" silly
-./tutorial.sh
+./bhelp.sh
