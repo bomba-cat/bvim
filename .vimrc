@@ -55,7 +55,7 @@ nmap <TAB> :bnext<CR>
 nmap <C-s> :w<CR>
 nmap <C-t> :terminal<CR>
 nmap <C-c> :! 
-nmap <C-Up> <C-w>-
-nmap <C-Down> <C-w>+
-nmap <C-Left> <C-w>h<C-w>><C-w>l
+nmap <C-Up> <C-w>j<C-w>+<C-w>k
+nmap <C-Down> <C-w>k<C-w>+<C-w>j
+nmap <C-Left> <C-w>h<C-w><<C-w>l
 nmap <C-Right> <C-w>l<C-w><<C-w>h
