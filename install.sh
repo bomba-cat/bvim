@@ -9,6 +9,8 @@ read -p "Are you sure you want to continue? CTRL+C to cancel" silly
 rm $HOME/.vimrc
 cp ./.vimrc $HOME/.vimrc
 
+mkdir -p ~/.vim/colors/
+cp ./colors/* ~/.vim/colors/
 
 read -p "Are you also using Neovim? [y/n] " type
 

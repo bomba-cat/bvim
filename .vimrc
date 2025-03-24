@@ -36,7 +36,7 @@ autocmd VimEnter * NERDTree | wincmd p
 
 " --Colorscheme
 
-colorscheme rdark-terminal2
+colorscheme red_theme
 
 " --Variables
 
